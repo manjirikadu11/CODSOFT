@@ -6,9 +6,6 @@
 }
 
 body {
-    /* background-color: #f4f6f8;
-    color: #333;
-    line-height: 1.6; */
     margin: 0;
 }
 
@@ -25,24 +22,25 @@ header h3 {
     font-size: 28px;
 }
 
-header p {
+header a {
+    color: white;
     margin-top: 8px;
     font-size: 14px;
+    text-decoration: none;
 }
 
-header p:hover {
+header a:hover {
     color: rgb(79, 237, 79);
 }
 
 
 .about {
-    background-color: rgb(206, 201, 203);
+    background-color:#e6f5f8;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 10%;
-    height: 100vh;
-    /* text-align: left; */
+    min-height: 80vh;
     
 }
 
@@ -50,11 +48,12 @@ header p:hover {
     max-width: 50%;
 }
 
-img {
+.my-image img {
     max-width: 100%;
     height: auto;
     display: block;
-    block-size: 400px;
+    width: 300px;
+    border-radius: 10px;
 }
 
 #name {
@@ -64,13 +63,12 @@ img {
 }
 
 .myself p {
-    /* font-size: 16px; */
     margin-bottom: 20px;
 }
 
 button {
-    background-color: rgb(154, 237, 239);
-    /* color: white */
+    /* background-color: rgb(154, 237, 239); */
+    background-color: #a8bffd;
     border: none;
     padding: 12px 25px;
     border-radius: 5px;
@@ -80,17 +78,14 @@ button {
 }
 
 button:hover {
-    background-color: #1d4ed8;
-    color: white;
+    background-color: #31d499;
+    color: rgb(12, 12, 12);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .Skills {
-    background-color:  rgb(186, 185, 186);
-    /* display: flex;
-    align-items: right;
-    justify-content: right; */
-    /* padding: 80px 10%; */
-    padding: 10px 5%;
+    background-color: #d4ebf0;
+    padding: 20px 10%;
     text-align: center;
 }
 
@@ -112,11 +107,12 @@ button:hover {
     padding: 8px 15px;
     border-radius: 20px;
     font-size: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .Projects {
-    background-color: rgb(171, 167, 169);
-    /* margin-bottom: 15px; */
+    /* background-color:   #a9ddea; */
+    background-color: #d4ebf0;;
     padding: 40px 10%;
 }
 
@@ -134,7 +130,6 @@ footer {
     padding: 15px;
     background-color: #1e293b;
     color: white;
-    /* margin-top: 20px; */
     font-size: 14px;
 }
 
@@ -143,7 +138,7 @@ footer {
         margin: 20px;
     }
 
-    .skills ul {
+    .Skills ul {
         flex-direction: column;
     }
 }
