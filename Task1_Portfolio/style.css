@@ -27,7 +27,7 @@ header a {
     margin-top: 8px;
     margin-right: 10px;
     font-size: 14px;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 header a:hover {
@@ -36,13 +36,13 @@ header a:hover {
 
 
 .about {
-    background-color:#e6f5f8;
+    background-color: #e6f5f8;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 10%;
     min-height: 80vh;
-    
+
 }
 
 .myself {
@@ -68,8 +68,7 @@ header a:hover {
 }
 
 button {
-    /* background-color: rgb(154, 237, 239); */
-    background-color: #a8bffd;
+    background-color: rgb(154, 237, 239);
     border: none;
     padding: 12px 25px;
     border-radius: 5px;
@@ -86,6 +85,7 @@ button:hover {
 
 .Skills {
     background-color: #d4ebf0;
+    background-color: rgb(205, 237, 249);
     padding: 20px 10%;
     text-align: center;
 }
@@ -112,9 +112,8 @@ button:hover {
 }
 
 .Projects {
-    /* background-color:   #a9ddea; */
-    background-color: #d4ebf0;;
-    padding: 40px 10%;
+    background: linear-gradient(to bottom, rgb(205, 237, 249), rgb(153, 219, 243));
+    padding: 40px 10%
 }
 
 .Project_Work h3 {
@@ -122,8 +121,9 @@ button:hover {
     margin-bottom: 5px;
 }
 
-#Resume {
+.Resume {
     margin-top: 5px;
+    background-color: #47bcfb;
 }
 
 footer {
